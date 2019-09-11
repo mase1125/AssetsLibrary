@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *message = @"Hello Git!";
+    NSLog(@"test:%e",message);
 }
 
 -(IBAction)buttonPress:(id)sender{
